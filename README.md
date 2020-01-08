@@ -21,7 +21,7 @@ stages:
   - deploy
 
 deploy-heroku:
-  image: ruby:latest
+  image: ugleiton/heroku_deployer:latest
   stage: deploy
   script:
     - echo "Publicando no heroku"
