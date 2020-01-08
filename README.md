@@ -1,12 +1,12 @@
 # Para uso em implantações heroku 
 
 
-## Modelo CI/CD GitLab
+## Configurações com GitLab
 
-!!! note "Variáveis CI/CD GitLab"
-    Configure as variáveis CI/CD no gitlab:
-    HEROKU_APPNAME = nome do aplicativo no heroku.
-    HEROKU_API_KEY = token de autorizações que você criou para interagir com a API Heroku, disponíveis na configuração do usuário.
+
+Configure as variáveis CI/CD no gitlab:
+HEROKU_APPNAME = nome do aplicativo no heroku.
+HEROKU_API_KEY = token de autorizações que você criou para interagir com a API Heroku, disponíveis na configuração do usuário.
 
 
 - Modelo arquivo de CI/CD `.gitlab-ci.yml` para o repositório gitlab:
